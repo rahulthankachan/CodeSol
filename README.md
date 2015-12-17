@@ -1,4 +1,4 @@
-####Welcome to Codesol
+####Welcome to CodeSol
 
 This is a repository where I try and post python based solutions to the [HackerRank](http://hackerrank.com) questions.
 
