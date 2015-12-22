@@ -45,6 +45,27 @@ print count
 *   find(sub_string, **first_index**, **last_index**) is used to check between
 
 
+###String Validators
+
+*  **isalnum()** if all the characters of a string are alphanumeric (a-z, A-Z and 0-9)
+*  **isalpha()**  string are alphabetical (a-z and A-Z)
+*  **isdigit()** is a digit 0-9
+*  **islower()** is in lower case
+*  **isupper()** is in upper case
+
+###Text Allignment
+
+There are three functions that can be used
+
+*   **center(width)**
+*   **ljust(width)**
+*   **rjust(width)**
+
+ 
+`
+The second parameter can be used for specifying the characater that will substitute blank space`
+
+
 
 
 
