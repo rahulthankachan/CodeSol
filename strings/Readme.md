@@ -84,6 +84,16 @@ This can be used for the filling into a paragraph of line 8
 
 `textwrap.fill(string,8)`
 
+###Designer Door Mat
+
+Quick assignment
+
+`N, M = map(int,raw_input().split())`
+
+*  **xrange(start,stop,step)** simalar to the range function
+
+We can use the print **('string'*4)** to output 4 occurances directly
+
 
 
 
