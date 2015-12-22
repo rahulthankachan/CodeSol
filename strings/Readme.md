@@ -65,6 +65,29 @@ There are three functions that can be used
 `
 The second parameter can be used for specifying the characater that will substitute blank space`
 
+###Text Wrap
+This can be used to do the wrapping in a list
+
+textwrap.wrap(string, **8**)
+
+
+```
+import textwrap
+
+textwrap.wrap(string, 8)
+['This is', 'a very', 'very', 'very', 'very', 'very', 'long', 'string.'] 
+
+```
+
+
+This can be used for the filling into a paragraph of line 8
+
+`textwrap.fill(string,8)`
+
+
+
+
+
 
 
 
