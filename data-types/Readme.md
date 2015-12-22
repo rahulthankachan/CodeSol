@@ -49,3 +49,21 @@ functions that are available to sets:
 
 **sorted()** can be used to sort a set it will return a list
 also to note that the update funtion can take a set also 
+
+###List Comprehension
+Can be used for quick initialization
+
+`[x for x in range(xr+1)]`
+
+###Nested Lists
+Lists can be nested. In other words, one list can contain another list.
+
+`a = [['blue', 'green'], ['red', 'black'], ['blue', 'white']]`
+
+
+a[1][0]
+
+`map(lambda x: print(x),sorted(x))`
+
+
+
