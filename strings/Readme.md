@@ -122,7 +122,10 @@ print (' ').join(map(lambda x: x.capitalize(),my_string))
 *   so use list(reversed(reverse))
 *   another way is list(::-1)
 
+###Minions
 
+*  word.find(sub,start,last)
+*  
 
 
 
