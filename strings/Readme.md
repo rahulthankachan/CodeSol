@@ -8,6 +8,7 @@
 *  **islower()** can ber used to check lower case
 *  **lower()** can be used to convert to lower case
 *  **upper()** can be used to convert to upper case
+*  **capitalize()** can be used to change the first as capital
 
 
 ###String Split and Join
@@ -93,6 +94,49 @@ Quick assignment
 *  **xrange(start,stop,step)** simalar to the range function
 
 We can use the print **('string'*4)** to output 4 occurances directly
+
+
+###String formatting
+
+To get the various forms
+
+*  oct(x)[2:]
+*  bin()[2:]
+*  hex()
+
+
+###Capitalize 
+
+map() will return the list
+
+```
+my_string = raw_input().split(" ")
+print (' ').join(map(lambda x: x.capitalize(),my_string))
+
+```
+
+###Alphabet Rangoli
+
+*   xrange(start, stop, iterator)
+*   **reversed()** will not return a list
+*   so use list(reversed(reverse))
+*   another way is list(::-1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
