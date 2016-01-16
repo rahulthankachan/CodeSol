@@ -125,7 +125,6 @@ print (' ').join(map(lambda x: x.capitalize(),my_string))
 ###Minions
 
 *  word.find(sub,start,last)
-*  
 
 
 
