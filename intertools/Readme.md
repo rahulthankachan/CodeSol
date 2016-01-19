@@ -1,8 +1,12 @@
 ##InterTools
 
-*  **product()** is equal to nested for loops
+*  **product()** is equal to nested for loops cross product
+*  **combinations** is similar to creating combinations in the lexicographic order
+*  **permutations** permutations
+*  **combinations_with_replacements** same element can be repeated
 
-````
+
+```
 >>> from itertools import product
 >>>
 >>> print list(product([1,2,3],repeat = 2))
@@ -53,6 +57,26 @@ Also, the values are generated in the lexicographical **ORDER**
 
 
 `````
+
+###Combinations 
+
+Combinations can be used to find the combinations of the input and the length can also be specified . The input is printed in the lexicographical method.
+
+
+###Combinations with Replacements
+Combinations with replacements is similar to the the combinations with a twist that the same number can be used many number of times
+
+###GroubBy
+Given a string the it groups the occurances of the letters and creates something like 
+
+(a,1) (b, 3)...
+
+To get the value of repetitions we have to use len( list(2nd value) )
+
+###Maximize
+*  **product()** can be used to find the maximum in a special series
+*  **max()** can be used to assign the max value from a list
+
 
 
 
