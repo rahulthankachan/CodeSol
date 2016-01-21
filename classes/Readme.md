@@ -110,7 +110,7 @@ Therefore, we have to override the add method to take care of this case
 Can be used to check if this is an instance of the Book Class
 
 
-###--ge()--
+###--ge--()
 ````
 
 def __ge__(self, other):
@@ -123,13 +123,13 @@ def __ge__(self, other):
 
 ````
 
-###--int()---
+###--int---()
 Called when the object is converted to an integer
 
-###--isadd()--
+###--isadd--()
 Calledd when += is called
 
-###--issub()
+###--issub__()
 Called when -= is called
 
 
@@ -138,8 +138,10 @@ A good reference [operator overloading](http://blog.teamtreehouse.com/operator-o
 
 Others Include:
 
-*  **--mul()--** is used for multiplication
-*  **--div--** 
+*  **--mul--()** is used for multiplication
+*  **--div--()** is used for division
+*  **--abs--()** is used for absolute overloading
+
 
 
 

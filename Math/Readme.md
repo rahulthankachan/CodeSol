@@ -90,6 +90,13 @@ then x= result of above.... so on...
 Note: x is the cummulative result for every step and y is from the range
 
 
+###acos() in math 
+
+Can be used to fincd the cos inverse
+math.degrees
+
+
+
 
 
 
