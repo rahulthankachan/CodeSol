@@ -12,6 +12,15 @@ str(complex_cart)[1:-1]
 
 ````
 
+For number = complex(a,b)
+
+*  To get the **complex part** use number.imag
+*  To get the **real part** use the number.real
+
+
+
+
+
 ###Polar coordinates
 To find the polar
 

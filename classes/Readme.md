@@ -1,0 +1,150 @@
+## This section is for Python Classes
+
+
+*  **pass** can be used in cases where there is empty definition
+
+
+####--init--
+It is called after the reference for the class object is created. Therefore, it is not exactly a constructor
+
+NOTE: The first argument of every class method, including the __init__() method, is always a reference to the current instance of the class.
+
+#####AND BY CONVENTION IT IS CALLED SELF
+
+#### --class--
+It's a function available in each of the python classes. It is used for the meta data information
+
+###Instance variables
+
+````
+class Fib:
+    def __init__(self, max):
+        self.max = max 
+
+````
+What is self.max? It’s an instance variable. It is completely separate from max, which was passed into the __init__() method as an argument. self.max is “global” to the instance. That means that you can access it from other methods.
+
+###Instance variables are specific to one instance of a class.
+
+
+###Member Variables
+These are variables that are available to all the instance variables of a class.
+
+
+###Deletion
+Deleting a key in a dictiona can be done in the following way
+
+````
+my_dict.pop("key", None)
+or
+
+try:
+	del my_dict['key']
+except KeyError:
+	pass
+	
+if 'key' in myDict:
+    del myDict['key']
+	
+
+````
+
+###Inheritance
+
+Syntax for inheritance
+
+````
+class Fruit:
+	pass
+
+class Tropical_Fruit(Fruit):
+	pass
+
+````
+
+###Function override
+
+We can override base class methods. So as a programmer we dont have to worry about the complexity or the type of object. We will see what is authorized automatically.
+
+Plus, we don't have to make more functions.
+
+
+###Access Super
+We can access the super class with the **super()** method
+
+**super(DERIVED CLASS NAME, self)** .method()
+Can be used to access the parent methods
+
+
+###--radd()-- method
+
+**Sum()** method can be used to add different objects also.
+Now, how it does that is that it takes the first element and then adds that to 0
+
+0 + element
+
+**Now 0 does not know how to add to an element
+But, the element can know how to add to a 0!! Cool ya!**
+
+But, before failing it will also try the x+y -> y+x Cummulative property
+
+And for this we use the reverse adder method
+
+```
+__radd(self,other)
+return self.number + other 
+
+```
+
+And then the Sum() function will give the solution
+
+But the problem is Book + Book this will not work as one time anyone of them will be in-front 
+
+###--add()-- method
+Therefore, we have to override the add method to take care of this case
+
+
+###isinstance(other, Book)
+**NOTE** OTHER IS IN THE BEGINING 
+
+Can be used to check if this is an instance of the Book Class
+
+
+###--ge()--
+````
+
+def __ge__(self, other):
+    if isinstance(other, Book):
+        return self.pages >= other.pages
+    elif isinstance(other, (int, float)):
+        return self.pages >= othe
+
+
+
+````
+
+###--int()---
+Called when the object is converted to an integer
+
+###--isadd()--
+Calledd when += is called
+
+###--issub()
+Called when -= is called
+
+
+A good reference [operator overloading](http://blog.teamtreehouse.com/operator-overloading-python)
+
+
+Others Include:
+
+*  **--mul()--** is used for multiplication
+*  **--div--** 
+
+
+
+ 
+
+
+
+ 
