@@ -290,6 +290,13 @@ To shuffle the deck, we will use the randrange function from the **random module
 just create a new function to pop the elements
 
 
+##Adding Inheritance:
+
+see how - > where the function goes is decided
+
+` but since it operates on a single deck and (possibly) several hands, it is more natural to put it in Deck.`
+
+
 
 
 
