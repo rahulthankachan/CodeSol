@@ -30,6 +30,8 @@ What is self.max? It’s an instance variable. It is completely separate from ma
 ###Member Variables
 These are variables that are available to all the instance variables of a class.
 
+**Also, within member function also member variable are accessed via self**
+
 
 ###Deletion
 Deleting a key in a dictiona can be done in the following way
@@ -141,6 +143,163 @@ Others Include:
 *  **--mul--()** is used for multiplication
 *  **--div--()** is used for division
 *  **--abs--()** is used for absolute overloading
+
+
+
+
+###Classes
+
+In object-oriented programming the focus is on the creation of objects which contain both data and functionality together
+
+A natural way to represent a **point** in Python is with two numeric values. The question, then, is how to group these two values into a compound object
+
+**An alternative is to define a new user-defined compound type, also called a class.**
+
+IMP:
+
+To put a variable in **all the points** we use a member variable- That is all MUST have PERIOD
+
+
+NOTE: seconds = self.convert_to_sec() + other.convert_to_sec() Line
+
+
+`````
+
+class Time(object):
+    def __init__(self, h = 0, m = 0, s = 0):
+        self.h = h
+        self.m = m
+        self.s = s
+    def __str__(self):
+        return ('%f hrs:%f min:%f sec' %(self.h,self.m,self.s))
+    def convert_to_sec(self):
+        return self.h*60*60 +self.m*60 + self.s
+    def __add__(self, other):
+        seconds = self.convert_to_sec() + other.convert_to_sec()
+        hours = seconds//3600
+        seconds = (seconds - hours*3600)
+        min = seconds // 60
+        seconds = seconds - min*60
+        sec = seconds
+        return Time(hours, min, sec)
+
+time1 = Time(1,2,3)
+print(time1)
+time2 = Time(1,2,3)
+print(time2.h)
+print(time1+time2)
+
+
+
+
+
+`````
+
+
+
+###Class Declaration
+
+Finally, we can provide a subset of the parameters by naming them explicitly:
+
+```
+class Time:
+    def __init__(self, hours=0, minutes=0, seconds=0):
+
+>>> current_time = Time(seconds = 30, hours = 9)
+>>> current_time.print_time()
+>>> 9:0:30
+
+```
+
+
+
+
+
+###Deck of Cards
+
+`NOTE: DECKOFCARD.PY`
+
+*  There are 52 cards
+*  13 cards in each group
+*  Each have attribute: **Suit** and **Rank**
+
+
+We use encoding for mappings
+
+````
+Spades   -->  3
+Hearts   -->  2
+Diamonds -->  1
+Clubs    -->  0
+
+
+````
+
+````
+Jack   -->  11
+Queen  -->  12
+King   -->  13
+
+
+````
+
+
+
+````
+class Card(object):
+    suites = ['Clubs', 'Diamond', 'Hearts', 'Spades']
+    ranks = ['0','Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Joker',
+            'Queen', 'King' ]
+
+    def __init__(self, suite = None, rank = None):
+        self.suite = suite
+        self.rank = rank
+
+    def __str__(self):
+        return '('+ self.suites[self.suite]+ ',' + self.ranks[self.rank] +')'
+
+
+third_heart = Card(2, 3)
+print(third_heart)
+
+
+
+
+````
+
+
+### --cmp--()
+
+*  0 if the values are equal
+*  1 if the first is greater
+*  -1 if the second is greater
+
+
+##Random Range(Shuffle)
+
+To shuffle the deck, we will use the randrange function from the **random module**. With two integer arguments, a and b, randrange chooses a random integer in the range `a <= x < b.`
+
+
+##Remove a Card
+
+##IMPORTANT
+
+**self.cards.remove(card)** uses the same --eq-- method to determine the equality
+
+###Pop()
+just create a new function to pop the elements
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

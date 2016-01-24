@@ -3,10 +3,10 @@
 ###Lists
 Functions that are available
 
-*  append()
+*  **arr.append()**
 *  extend() - Merges another list to the end
 *  insert(i,x) 
-*  remove(x) - will remove the first occurance 
+*  **arr.remove(x)** - will remove the first occurance 
 *  pop() - last element
 *  index() - will return the first index
 *  count(x) -  count the number of occurances of x
