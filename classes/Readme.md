@@ -275,26 +275,102 @@ print(third_heart)
 *  -1 if the second is greater
 
 
-##Random Range(Shuffle)
+###Random Range(Shuffle)
 
-To shuffle the deck, we will use the randrange function from the **random module**. With two integer arguments, a and b, randrange chooses a random integer in the range `a <= x < b.`
+To shuffle the deck, we will use the randrange function from the **random module**. With two integer arguments, a and b, randrange chooses a random integer in the 
+range `a <= x < b.`
+
+`j = random.randrange(i, length)`
 
 
-##Remove a Card
+###Remove a Card
 
-##IMPORTANT
+###IMPORTANT
 
 **self.cards.remove(card)** uses the same --eq-- method to determine the equality
 
+*  This means that one can override the quality method and customize it for example removal of points, or removal or cards based on the rank and suite
+
+
 ###Pop()
-just create a new function to pop the elements
+Just create a new function to pop the elements
+
+`For a deck of Cards`
+def pop(self):
+	return self.cards.pop()
 
 
-##Adding Inheritance:
+###Adding Inheritance:
 
 see how - > where the function goes is decided
 
 ` but since it operates on a single deck and (possibly) several hands, it is more natural to put it in Deck.`
+
+
+###Round Robin distribution
+
+
+*  Find the length of the **number of players = len(players)**
+*  for i in range(0, len):
+ 		current_player = players[i % len]
+ 		current_player.distribute_candy()
+ 		
+ 		
+**IMP**  `In general, it is always legal to use an instance of a subclass in place of an instance of a parent class.`
+
+`````
+class Hand(Deck)
+    ...
+    def __str__(self):
+        s = "Hand " + self.name
+        if self.is_empty():
+            s = s + " is empty\n"
+        else:
+            s = s + " contains\n"
+        return s + Deck.__str__(self)
+
+
+`````
+
+
+###ASK THE QUESTION:
+
+`Should I use the same class or should I create a new class and just inherit that class`
+
+**To get the same color, different suite**
+
+
+````
+    suites = ['Clubs', 'Diamond', 'Hearts', 'Spades']
+    match = Card(3 - card.suit, card.rank)
+    
+````
+
+
+DO NOT REMOVE THE ELEMENTS WHILE TRAVERSING, SIMPLE MAKE ANOTHER COPY WHICH WILL BE USED FOR THE TRAVERSAL
+
+
+###MOST IMPORTANT
+
+1. Inheritance is always from a more General to a more specific
+2. It is OK to send the child object as a SELF to parent function
+
+   	`DECK.__str__(child)`
+   	
+3. Try to have the member functions in that class which will use its member variables
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
