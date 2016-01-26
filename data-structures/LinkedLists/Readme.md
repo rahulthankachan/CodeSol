@@ -21,6 +21,10 @@ The interface elements include:
 *	**pop()** This is used to pop and element
 *	**is_empty()** To check if the stack is empty
 
+
+`USES THE LIST IMPLEMENTATION`
+
+
 ````
 
 class Stack(object):
@@ -71,6 +75,39 @@ The interface elements include:
 `Queue will have constant time removal`
 
 `Included in the Queue.py`
+
+##Priority Queue
+
+
+The interface elements include:
+
+*	**__init__()** This method is used to initialize a stack
+*	**insert()** This is used to add an element
+*	**remove()** This is used to pop and element
+*	**is_empty()** To check if the stack is empty
+
+
+It is similar to Queue but has different semantics
+
+`USES THE LIST IMPLEMENTATION`
+
+Golfer example has been included in the code sample
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
