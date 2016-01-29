@@ -5,13 +5,13 @@ Functions that are available
 
 *  **arr.append()**
 *  extend() - Merges another list to the end
-*  insert(i,x) 
-*  **arr.remove(x)** - will remove the first occurance 
+*  insert(i,x)  `i is from 0`
+*  **arr.remove(x)** - will remove the first occurance `WILL GIVE ERROR(NOT)`
 *  pop() - last element
-*  index() - will return the first index
+*  index() - will return the first index... this will also take 0-size
 *  count(x) -  count the number of occurances of x
-*  sort() 
-*  reverse()
+*  sort() - will change the same array
+*  reverse() -- will act on the same element
 
 
 There are 3 ways to initialize an array
@@ -40,9 +40,9 @@ myset = set(['a', 'b']) # Creating a set from a list
 
 functions that are available to sets:
 
-*  add() - if the value is already there then nothing happens 
-*  update() - is used  to best fit some nubers in the list
-*  discard()-  is used for the removal() alsp remove()-- if not error()
+*  add() - if the value is already there then nothing happens .. (same)
+*  update() - is used  to best fit some numbers in the list... **(same)(multiple)**
+*  discard()-  is used for the no error removal alsp remove()-- if error()
 *  union()
 *  intersection()
 *  difference()
