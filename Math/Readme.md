@@ -11,6 +11,7 @@ str(complex_cart)[1:-1]
 
 
 ````
+**STRIP** will only truncate from the begin and ending
 
 For number = complex(a,b)
 

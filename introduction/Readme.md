@@ -51,9 +51,10 @@ Here, the term range(0,5) returns a list of integers from 0 to 5: [0,1,2,3,4]
 ###dictionary 
 Note: The key of a dictionary is immutable. We cannot use a list as a key because a list is mutable.
 
-`a['two'] = 2 # Adds key 'two' which points to 2
-a['one']
-1  
+`````
+
+a['two'] = 2 # Adds key 'two' which points to 2
+a['one'] = 1  
 if ('three' in a):
       # To check whether a certain string exist as a key in the dictionary  
 print a['three']
@@ -62,7 +63,10 @@ else:
 Three not there
 del a['one']
 Deletes index 'one' and the value associated with it  a
-{'two': 2}`
+{'two': 2}
+
+
+``````
 
 ###finding the percentage
 .spilt(' ') can be used to split the input

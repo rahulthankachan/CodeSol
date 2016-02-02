@@ -120,6 +120,18 @@ but str(root) + 'abcds' is defined by definition of strings class
 
 
 ###Animal Tree Program
+This program can be used to store the knowledge inside the tree 
+
+
+###indexof 
+will return the first index of a charater,
+
+NOTE: for the first element it will give 1 and not 0
+
+
+
+
+
 
 
 

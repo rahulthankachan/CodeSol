@@ -3,12 +3,12 @@
 ###Swap-strings
 
 
-*  **isalpha()** checks for a character
+*  **isalpha()** checks for a character(Only alphabets)
 *  **isupper()** can be used to check upper case
 *  **islower()** can ber used to check lower case
-*  **lower()** can be used to convert to lower case
-*  **upper()** can be used to convert to upper case
-*  **capitalize()** can be used to change the first as capital
+*  **lower()** can be used to convert to lower case, **NOT SAME**
+*  **upper()** can be used to convert to upper case, **NOT SAME**
+*  **capitalize()** can be used to change the first as capital, **NOT SAME**
 
 
 ###String Split and Join
@@ -44,6 +44,7 @@ print count
 
 *   **find()** is used to find the index of the first occurance
 *   find(sub_string, **first_index**, **last_index**) is used to check between
+*   returns **-1** if not found
 
 
 ###String Validators
@@ -81,7 +82,7 @@ textwrap.wrap(string, 8)
 ```
 
 
-This can be used for the filling into a paragraph of line 8
+This can be used for the filling into a paragraph of **line** 8
 
 `textwrap.fill(string,8)`
 

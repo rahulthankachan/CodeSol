@@ -7,9 +7,6 @@ Use the
 
 *  **len( set )** function to find the length of the set
 *  **sum( set )** function to find the sum of the set
-
-
-*  **split()** function, if there is no value specified then it takes any space
 *  **set.add()** function It adds the element to the set and returns **'None'**.
 *  **set.remove()** will remove the element and raise a ***key err*** if not found
 *  **set.discard** removes and return None but does not give ***Key Err***
