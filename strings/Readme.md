@@ -82,7 +82,7 @@ textwrap.wrap(string, 8)
 ```
 
 
-This can be used for the filling into a paragraph of **line** 8
+This can be used for the filling into a paragraph of **lines** with size  8
 
 `textwrap.fill(string,8)`
 
