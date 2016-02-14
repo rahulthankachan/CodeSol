@@ -9,7 +9,7 @@ Types of general java versions available
 
 1. **JSE** - Java standard edition - standalone application
 2. **JEE** - Java enterprise edition, webservices, server based
-3. **JME** - Java Mocro edition , handheld devices
+3. **JME** - Java Micro edition , handheld devices
 
 
 ####Java tools
@@ -50,6 +50,8 @@ Size of the data types is fixed for all the platforms
 #####methods
 
 **main** is the starting method - or the entry point
+
+`Method definition`
 
 **Access Modifier**  follows **Modifier** follows **return type** follows **name of the methd**  (Arguments)
 
