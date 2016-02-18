@@ -16,7 +16,7 @@ The What Part of the methods is **SAME** the **HOW** part of the methods is diff
 
 Difference between the Abstrat classes and the Interfaces
 
-![Alt text](/img.png?raw=true "Differences")
+![Alt text](/Java/Abstarction/img.png?raw=true "Differences")
 
 
 
