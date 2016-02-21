@@ -50,13 +50,23 @@ public interface B ectends A {
 *  Static Polymorphism - Method overloading
 *  Dynamic polymorphism -  Inheritance must come in the picture (Type)
 *  Polymorphism comes from dynamic binding (Objects implementation are bound at the runtime)
-*  **instanceof** can be used in casr to check the object reference type... Always the ans is a **boolean** `aCat instanceof Cat`
+*  **instanceof** can be used in casr to check the object reference type... Always the ans is a **boolean** 
+*  `aCat instanceof Cat`
 *  After this **Casting can be done to get the methods in the scope**.
 
 
 VERY IMPORTANT
 
 *  **Polymorphism will happen only with the instance methods and not with the instance variables**
+
+`````
+The radius of the ball is 2
+The ball can bounce to height of 2 m
+The radius of the ball is 2
+The basketball can bounce for 1m only
+
+``````
+
 
 
 
