@@ -19,7 +19,6 @@ Some people will argue that most of the discussions can happen within the platfo
 
 *  After some interviews and coding challenges what I believe is that majority of them are Java based :(
 *  I will start coding in Java also and post solutions in Java too.
-*  The plan is to switch from Python to Java at some time when I am ready completely
 *  But since I love python I will continue using it as a tool for myself.
 
 
@@ -27,8 +26,6 @@ Some people will argue that most of the discussions can happen within the platfo
 
 1. New Java section to be added
 2. Also since this requires some learning from my side I would post extra folders which are not in sync with the Hackerrank folder structure
-
-
 
 
 Yay! lets code :)
