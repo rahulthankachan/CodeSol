@@ -1,16 +1,16 @@
 ##Strings
 
-String Literal in Java is always placed in **Double quotes**
+String Literal in Java is ***ALWAYS*** placed in **Double quotes**
 
 *  A string literal is an object and all the string functions are available though the dot operator. `"123".function()`
-*  Java string are **immutable** in naure.
+*  Java string are **immutable** in naure. ***The object cannot be changed it self.***
 *  What this means is that the value inside a string variable cannot be changed. **A new object is instead returned**
 
 
 ####str.substring(start_index, end_index)
 
 *  Will return a new object with the substring 
-*  Make sure that the string is in **LOWER case**
+*  Make sure that the substring is in **LOWER case**
 
 
 ####Operations on the String object
