@@ -21,34 +21,7 @@ String Literal in Java is ***ALWAYS*** placed in **Double quotes**
 *  **str.indexOf(int char)** will return the first index or **-1** if **not found**
 *  **str.indexOf(string)** will return the first index or **-1** if **not found**
 *  **str.indexOf(string, from_index)** will return the first index or **-1** if **not found**
-
-
-####Important
-
-`````
-
-test.evaluateTheArray({1,2,3,4,5});
-
-	public void evaluateTheArray(int[] array) {
-		int total = 0;
-		for (int x : array) {
-
-			total += x;
-		}
-
-		System.out.println("The sum of the array is "+ total);
-	}
-
-
-
-
-`````
-
-IS NOT THE CORRECT METHOD AND WILL GIVE AN ERROR
-
-INSTEAD
-
-`test.evaluateTheArray(new int[]{1,2,3,4,5});`
+*  The **indexOf** gives the result even when the word is a part of a bigger word also.
 
 
 ###Building HUGE Strings
@@ -89,3 +62,34 @@ StringBuilder res = new StringBuilder();
 
 ####System.currentTimeMillis()
 Can be used to get the current time in Millis
+
+
+####Important
+
+`````
+
+test.evaluateTheArray({1,2,3,4,5});
+
+	public void evaluateTheArray(int[] array) {
+		int total = 0;
+		for (int x : array) {
+
+			total += x;
+		}
+
+		System.out.println("The sum of the array is "+ total);
+	}
+
+
+
+
+`````
+
+IS NOT THE CORRECT METHOD AND WILL GIVE AN ERROR
+
+INSTEAD
+
+`test.evaluateTheArray(new int[]{1,2,3,4,5});`
+
+
+
