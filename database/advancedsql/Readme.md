@@ -203,3 +203,21 @@ for{
 ###SQL QUERY Can therefore appear in either SELECT, FROM , OR WHERE CLAUSE
 
 
+
+###Creating a View
+
+`CREATE VIEW viewname as SELECT query`
+
+
+###Creating a SEQUENCE
+
+`CREATE SEQUENCE INV1 START WITH 2010 NOCACHE`
+
+
+##procedural
+
+1.  Blocks
+2.  Triggers
+3.  Stored procedures
+4.  Stored Functions
+
