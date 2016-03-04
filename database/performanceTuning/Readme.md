@@ -84,6 +84,9 @@ Statistics based query optimization algorithm
 1. Initially needs some data. Based on the access patterns. 
 2. **Green Grass path example**
 
+**RULE Based Query optimization algorithm**
+
+
 
 ###Query Processing
 
@@ -172,6 +175,24 @@ Real world fluctuations are taken care of.
 
 ###Optimizer Hints
 A very good example could be when we tell the indexer to look for the ans in the first 10 rows of an index table.
+
+
+```````
+SELECT /* ALL_ROWS */
+FROM 
+WHERE
+
+
+SELECT /* + FIRST_rows */*
+
+
+select /* + INDEX(INDEX_NAME) */*
+FROM PRODUCT
+WHERE >
+
+
+
+```````
 
 
 ##SQL Performance Tuning - Client end

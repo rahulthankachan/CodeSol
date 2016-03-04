@@ -105,6 +105,9 @@ Issued when a transaction wants to WRITE data, and **NO** lock is held.
 
 ##Two- Phase Locking
 
+###GROWING and Shrinking Phase
+Concurrency control, how the transaction acquire and relinquish locks
+
 ###LOCKING PHASE
 **growing pahse** Transaction acquires all required locks without unlocking any data. ONLY WHEN ALL
 
@@ -124,7 +127,7 @@ Issued when a transaction wants to WRITE data, and **NO** lock is held.
 
 If the transacitons happen really fast then deadlock avoidance may not be the best possible approach.
 
-###Timestamping
+###Timestamping(Always increasing and is unique)
 
 1. Assigns a global, unique time stamp to each transaction.
 2. Produces an explicit order.
@@ -154,6 +157,19 @@ WOUND OR WAIT
 ##Pessimistic Locking
 
 Make the changes in a private copy of the database.
+
+###CONFLICTS WILL HAPPEN (RESTROOMS)
+
+
+###Phases of Optimistic Approach
+
+1. Read
+2. Validate
+3. Write
+
+
+
+
 
 
 

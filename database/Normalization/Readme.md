@@ -117,6 +117,16 @@ SURROGATE KEY
 
 
 
+1. Arribute atomicity
+2. Assignment NUM is a good Promary key
+3. Name - > first name, last name, hirdate
+4. Extra Attributes like HIREDATE
+
+
+
+
+
+
 
 
 

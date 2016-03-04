@@ -22,7 +22,9 @@ JDBC - > Java data base connectivity
  2. **DAO** Data access Objects
  3. **Remote Data Objects** - Object oriented application interface for accessing the remote database servers
  
- 
+###DLL - Dynamic Link Libraries
+
+1. Implements ODBS, RDO, DAO as **shared code** that is dynamically  linked to the Windows Operating system
  
 ###Next generation Object linking and embedding
 
@@ -50,6 +52,11 @@ JDBC - > Java data base connectivity
 ##Java Database Connectivity(JDBC)
 
 
+###Server Side Extension
+1. Program that interacts directly with the web - server\
+2. Also known as the web - to - database middleware
+3. Totally **transparent** to the client browser
+4. 
 
 
 ###Database Internet Connectivity
@@ -60,10 +67,19 @@ CGI - Common gateway Interface PERL
 ###Web Applications Server
 
 Middleware expands the functionality of the web servers.
-1. It is a specialized server that interfaces with the specialized web services such as database, search engine. The client can query these data sources and get the results dynamically.
+
+1. It is a specialized server that interfaces with the specialized web services such as database, search engine. 
+2. The client can query these data sources and get the results dynamically.
 
 
+FEATURES
 
+1. security
+2. Access to multiple services
+3. IDE
+4. Computational language
+5. Perfomance and fault tolerance
+6. Database access with trasaction management capability.
 
 
 
