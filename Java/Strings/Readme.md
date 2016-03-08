@@ -11,6 +11,7 @@ String Literal in Java is ***ALWAYS*** placed in **Double quotes**
 
 *  Will return a new object with the substring 
 *  Make sure that the substring is in **LOWER case**
+*  The last index is not included in the substring -> for the entire String output, we can put len(str) as the attribute value.
 
 
 ####Operations on the String object
