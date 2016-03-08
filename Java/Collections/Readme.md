@@ -66,8 +66,13 @@ Using the iterator function
 
 ```````
 
+**To get the element at a particular index**
 
 `listOfInts.get(i);` sends an object.
+
+### If you are going to use the Integer then make sure you declare it
+
+`Integer x = new Integer(HAVE TO PASS)`;
 
 
 
@@ -89,6 +94,39 @@ Using the iterator function
 * **size()**
 
 
+
+``````
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+public class TestPad {
+
+	public static void main(String[] args) {
+
+		Set<String> mySet = new HashSet<String>();
+
+		mySet.add("Rahul");
+		mySet.add(" is ");
+		mySet.add(" my ");
+		mySet.add(" name");
+
+		for (String s : mySet) {
+			System.out.println(s);
+		}
+
+		System.out.println("Does the list have the value Rahul true/false ?" + mySet.contains("Rahul"));
+	}
+}
+
+
+
+
+``````
+
+
+
 ####Map
 
 *  **HashMap()**
@@ -106,6 +144,40 @@ Functions are:
 5. **isEmpty()**
 
 
+``````
+
+
+
+import java.util.HashSet;
+import java.util.Map;
+import java.util.HashMap;
+
+
+public class TestPad {
+
+
+	public static void main(String[] args) {
+
+		Map<String, Integer> myMap = new HashMap<String, Integer>();
+		myMap.put("Rahul", 1);
+		myMap.put("R", 2);
+		myMap.put("Rahul", 45);
+
+		System.out.println("Does the values has the key Rahul " + myMap.containsKey("Rahul"));
+		System.out.println("What is the value at the Key Rahul is " + myMap.get("Rahul"));
+
+
+	}
+}
+
+
+
+
+
+``````
+
+
+
 ###Collections class
 
 Uses the Merge sort
@@ -113,10 +185,45 @@ Uses the Merge sort
 
 *  list.toArray() can be used to convert a list to array
 *  **Collections.sort(list)** can be used to sort a list
-*  Changes the same array 
+*  Changes the **SAME** array 
 
 
-####To sort a list of Circles then we have to implement the `Comparable` class
+``````
+
+import java.util.Collections;
+import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class TestPad {
+
+	public static void main(String[] args) {
+
+		List<Integer> myList = new ArrayList<Integer>();
+		myList.add(1);
+		myList.add(2);
+		myList.add(3);
+		myList.add(-1);
+		myList.add(-2);
+
+		Collections.sort(myList);
+
+		System.out.println("The array elements are \n" + Arrays.toString(myList.toArray()));
+	}
+}
+
+
+
+
+
+
+
+``````
+
+
+
+####To sort a list of Circles then we have to implement the `Comparable <Circle>` class
 
 
 `public class Circle implements Comparable <Circle>{`
@@ -138,28 +245,14 @@ Uses the Merge sort
 
 
 
-
-
-
-
 ```````
 
+###String.valueOf(int)
+Can be used to get the String value of the integer
 
+####Comparator
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This could be used when we dont have the Access to the Circle implementation
 
 
 
