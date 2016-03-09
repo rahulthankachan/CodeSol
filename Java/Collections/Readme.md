@@ -92,7 +92,9 @@ Using the iterator function
 * **removeAll()**
 * **toArray()**
 * **size()**
-
+* **keySet()**
+* **values()**
+* **containsValue()**
 
 
 ``````
