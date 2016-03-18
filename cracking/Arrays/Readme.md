@@ -83,6 +83,22 @@ can be used to convert a string into its corresponding character Array
 ###str1.equals(str2)---- > boolean
 
 
+##IMP;
+
+`int x = char(variable)` is allwed, but the other way is not allowed. **Lossy conversion**
+
+Integer.valueOf() can be used to get the integer value of the string inside
+
+
+###Learning from the compression problem
+
+1. The letter could be **a 345 b1 c34** so it need not always be `2 size of letter digit`.
+2. Sometimes the compression string could be longer
+3. Last letter need to be appended again
+
+
+
+
 
 
 
