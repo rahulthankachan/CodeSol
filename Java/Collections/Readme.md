@@ -256,5 +256,14 @@ Can be used to get the String value of the integer
 
 This could be used when we dont have the Access to the Circle implementation
 
+###Collections.sort(lIST)
+can be used to sort the list (Merge Sort)
+
+###Collections.reverse(List)
+
+Can be used to reverse the given list.. Remember they work on the List itself!!! **NO NEW IS CREATED**
+
+
+
 
 
