@@ -97,6 +97,18 @@ Integer.valueOf() can be used to get the integer value of the string inside
 3. Last letter need to be appended again
 
 
+###String.equals()
+
+1. Is used to check the value
+2. If you want to check the object ==
+
+###String condition for rotation
+
+1. Should yx will be a substring of the xyxy.
+2. Both the string will have the same length
+3. 
+
+
 
 
 
