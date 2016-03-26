@@ -68,3 +68,21 @@ In an **Interview** we need to understand if it is a singly or a doubly linkedLi
 
 
 ``````
+
+
+### Delete something in middle is fun
+
+```````
+        
+        Node next = n.next;
+        n.data = next.data;
+        n.next = next.next;
+
+
+
+```````
+
+
+
+
+
