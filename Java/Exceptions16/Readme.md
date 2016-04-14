@@ -1,5 +1,7 @@
 ##Exceptions
 
+
+
 *  **Arithmetic exception**
 
 `````
@@ -82,6 +84,7 @@ Will **NOT** print anything in the logs and it will very difficult to debug
 
 *  All the exception that are inherited from the Exception class are considered **CHECKED**
 *  All the exceptions that are inherited from the RuntimeException class are considere **UNCHECKED**
+*  We `extend` the RuntimeException or the Exception class for **creating new Ones.**
 
 
 ``````
